@@ -3,7 +3,8 @@ import org.junit.Test
 class MarsRoverTest {
 
     @Test
-    fun `test`() {
-        assert(true)
+    fun roverMovesOneForward() {
+        val rover = MarsRover()
+        assertThat(expectedX, rover.getX())
     }
 }
