@@ -1,14 +1,11 @@
-import junitparams.JUnitParamsRunner
 import junitparams.Parameters
 import org.junit.Test
-import org.junit.runner.RunWith
-import org.junit.runners.Parameterized
 import kotlin.test.assertEquals
 
 class MarsRoverTest {
 
     @Test
-    @Parameters("5,5,N,5,6", "5,5,E,6,5")
+    @Parameters("5,5,N,5,6", "5,5,E,6,5", "5,5,S,5,4")
     fun roverMovesOneForward(direction: Char, startX: Int, startY: Int, endX: Int, endY: Int) {
         val rover = MarsRover(direction, startX, startY)
 
