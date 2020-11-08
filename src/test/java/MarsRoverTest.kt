@@ -5,7 +5,7 @@ class MarsRoverTest {
 
     @Test
     fun roverMovesOneForward() {
-        val direction = "N"
+        val direction = 'N'
         val startX = 5
         val startY = 5
         val rover = MarsRover(direction, startX, startY)
