@@ -5,7 +5,6 @@ import org.junit.runner.RunWith
 import org.junit.runners.Parameterized
 import kotlin.test.assertEquals
 
-@RunWith(JUnitParamsRunner::class)
 class MarsRoverTest {
 
     @Test
